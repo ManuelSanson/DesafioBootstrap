@@ -23,7 +23,7 @@
     font-weight: bolder;
 }
 
-/* Estilo main */
+/* Estilo banner */
 .banner{
     background-image: url("../img/Equipo3.png");    
     background-size: cover;
@@ -40,6 +40,7 @@
 .texto-banner h5 a{
     text-decoration: none;
     color: inherit;
+    font-weight: bolder;
 }
 
 .texto-banner h5 a:hover{
@@ -108,7 +109,15 @@
     }
   }
   
+/* Estilo seccion */
+.container{
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
 
+.container .row{
+    text-align: center;
+}
 
 /* Estilo footer */
 .pie{
