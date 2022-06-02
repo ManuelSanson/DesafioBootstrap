@@ -127,13 +127,65 @@
     display: flex;  
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .redes img{
     width: 30px;
     height: 30px;
+    margin-right: 5px;
 }
 
+.redes img:hover{
+    width: 40px;
+    height: 40px;    
+}
+
+
+.redes{
+    text-align: center;
+}
+
+.cancha{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "tituloClub ubiClub"
+    "tituloCancha ubiCancha"
+    ;
+    align-items: stretch;
+    column-gap: 15px;
+}
+
+.tituloClub{
+    grid-area: tituloClub;
+}
+
+.ubiClub{
+    grid-area: ubiClub;
+}
+
+.tituloCancha{
+    grid-area: tituloCancha;
+}
+
+.ubiCancha{
+    grid-area: ubiCancha;
+}
+
+
+.cancha a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+
+.cancha a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
