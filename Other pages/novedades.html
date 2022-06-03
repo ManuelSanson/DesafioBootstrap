@@ -37,10 +37,10 @@
   </nav>
 
     <main>
-        <h1>Novedades</h1>
+        <h1 class="p-3 m-3 bounce-top">Novedades</h1>
         
         <section class="m-5">
-            <h3>Tabla</h3>
+            <h3 class="pt-5 shake-horizontal">Tabla</h3>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -49,7 +49,7 @@
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div><img src="../img/TablaInter.jpeg" alt="tablainter"></div>
+                    <div class="tablas p-4"><img src="../img/TablaInter.jpeg" alt="tablainter"></div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -59,7 +59,7 @@
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div><img src="../img/TablaPre.jpeg" alt="tablapre"></div>
+                    <div class="tablas p-4"><img src="../img/TablaPre.jpeg" alt="tablapre"></div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -69,10 +69,42 @@
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div><img src="../img/Tabla19.jpeg" alt="tabla19"></div>
+                    <div class="tablas p-4"><img src="../img/Tabla19.jpeg" alt="tabla19"></div>
                   </div>
                 </div>
               </div>
+        </section>
+
+        <section class="m-5">
+          <h3 class="pt-5 shake-horizontal">Fotos</h3>
+          <div class="fotos">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/Equipo.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/Jugando.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/Equipo 2.jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </section>
         
 
